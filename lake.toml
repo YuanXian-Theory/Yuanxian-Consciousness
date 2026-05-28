@@ -1,0 +1,14 @@
+name = "YuanxianConsciousness"
+version = "0.1.0"
+leanVersion = "4.12.0"   # Recommended stable version as of 2026
+
+[[require]]
+name = "mathlib"
+git = "https://github.com/leanprover-community/mathlib4.git"
+rev = "master"
+
+# Optional: Additional dependencies if needed
+# [[require]]
+# name = "mathlib"
+# git = "https://github.com/leanprover-community/mathlib4.git"
+# rev = "v4.12.0"   # You can pin to a specific version for stability
