@@ -1,0 +1,23 @@
+# Lean
+/build
+/lake-packages
+/.lake
+*.olean
+*.ilean
+
+# Coq
+/coq/_build
+/coq/*.vo
+/coq/*.vos
+/coq/*.vok
+/coq/*.glob
+/coq/.coq-native
+
+# General
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.vscode/
+.idea/
+*.log
