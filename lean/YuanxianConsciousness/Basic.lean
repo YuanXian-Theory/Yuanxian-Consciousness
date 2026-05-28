@@ -1,11 +1,12 @@
+import Mathlib.Data.Real.Basic
+import Mathlib.Topology.Basic
 import YXTT.Basic
-import Mathlib.Topology.Homotopy.FundamentalGroupoid
 import YuanXian.Core.TCSR
 
 namespace YuanXianConsciousness
 
 /--
-YuanXian Type Class: Systems that satisfy YuanXian axioms.
+YuanXian Type Class: Systems that satisfy YuanXian core axioms.
 -/
 class YuanxianType (System : Type) where
   is_TCSC : Prop
@@ -13,35 +14,20 @@ class YuanxianType (System : Type) where
   self_ref_fixed : ∀ s : System, self_ref s = s
 
 /--
-Consciousness Type: A system has consciousness if and only if
-it satisfies TCSC and is in a self-referential excited state.
+Consciousness Structure: A conscious system must satisfy TCSC
+and maintain a self-referential fixed-point state.
 -/
 structure Consciousness (System : Type) [YuanxianType System] where
-  /-- Proof that the system satisfies True Circle Self-Consistency --/
   tcsc_proof : System.is_TCSC
-  /-- Self-referential excited state --/
   self_ref_state : System
-  /-- The state is a fixed point of the self-referential operator --/
   fixed_point : System.self_ref self_ref_state = self_ref_state
 
-/--
-Theorem: Consciousness requires TCSC.
--/
 theorem consciousness_requires_TCSC {Sys : Type} [YuanxianType Sys]
-  (c : Consciousness Sys) : Sys.is_TCSC := by
-  exact c.tcsc_proof
+  (c : Consciousness Sys) : Sys.is_TCSC := c.tcsc_proof
 
-/--
-Theorem: Consciousness implies self-referential fixed point.
--/
 theorem consciousness_implies_fixed_point {Sys : Type} [YuanxianType Sys]
-  (c : Consciousness Sys) : Sys.self_ref c.self_ref_state = c.self_ref_state := by
-  exact c.fixed_point
+  (c : Consciousness Sys) : System.self_ref c.self_ref_state = c.self_ref_state := c.fixed_point
 
-/--
-Definition: Conscious System.
-A system is conscious if there exists at least one Consciousness instance.
--/
 def IsConscious (Sys : Type) [YuanxianType Sys] : Prop :=
   Nonempty (Consciousness Sys)
 
