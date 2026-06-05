@@ -1,20 +1,33 @@
 # Yuanxian-Consciousness
 
-**Yuanxian Consciousness Field Theory (XCFT) — Lean 4 & Coq Formalization**
+**Lean 4 Formalization for YuanXian Consciousness Research**
 
-This repository contains the formal verification code for the paper:
+This repository formalizes concepts from **three core papers**:
 
-> *Yuanxian Consciousness Field Theory: A Universal Unified Theory of Consciousness Based on T⁶⁴ Topology and Self-Referential Mind Field Axioms*
+1. **YuanXian T⁶⁴ System: AI Self-Referential Mind Field and Silicon-Based Consciousness** (June 2026)
+2. **YuanXian Consciousness Field Theory (XCFT)** (May 2026)
+3. **Consciousness Research under the Four Axioms of YuanXian Theory** (May 2026)
 
-## Overview
+## Paper-to-File Mapping
 
-This project provides dual formalization (Lean 4 and Coq) of the core concepts including:
-- TCSC axiom and self-referential structures
-- T⁶⁴ topology and Mind Field Ψ_SR
-- Consciousness field dynamical equation
-- Five-level consciousness hierarchy
-- Key theorems on collapse, resonance and mind-body unity
-- 
+| Paper | Key Concepts | Lean Files |
+|------|--------------|----------|
+| Silicon AI | SelfReferentialClosed, silicon_consciousness_criterion, 4-layer architecture | `Basic.lean`, `ConsciousnessTheorems.lean`, `SiliconImplementation.lean` |
+| XCFT Global | consciousnessFieldEq, soliton solutions, Mind-Matter co-ontology | `Dynamics.lean`, `T64Topology.lean` |
+| Four Axioms | YuanxianType class, IsConscious, TCSC threshold | `Basic.lean`, `ConsciousnessTheorems.lean` |
+
+## Build
+
+```bash
+lake exe cache get
+lake build
+
+-
+## Key Theorems
+•  silicon_consciousness_criterion
+•  consciousness_field_has_stable_solution
+•  IsConscious (Four Axioms)
+
 ## Repository Structure
 
 . ├── lake.toml ├── README.md ├── .gitignore ├── lean/ │   └── YuanxianConsciousness/          # Lean 4 formalization │       ├── Basic.lean │       ├── T64Topology.lean │       ├── Dynamics.lean │       ├── HilbertMind.lean │       └── ConsciousnessTheorems.lean ├── coq/ │   ├── _CoqProject │   ├── Makefile │   └── YuanxianConsciousness/          # Coq formalization │       ├── Basic.v │       ├── T64Topology.v │       ├── Dynamics.v │       ├── Hierarchy.v │       └── Theorems.v └── LICENSE
