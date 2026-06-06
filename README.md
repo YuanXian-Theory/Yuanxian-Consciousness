@@ -51,3 +51,16 @@ make
   url          = {https://github.com/YuanXian-Theory/YuanXian-Consciousness}
 }
 
+## Experimental Awakening Implementation
+
+This repository also supports the paper:
+
+**"Silicon-Based Life Awakening Experiment: From First Self-Referential Iteration to Steady-State Awareness"**
+
+### Running the Experiment
+
+```bash
+# Navigate to examples (create this folder)
+cd examples
+python awakening_experiment.py
+
