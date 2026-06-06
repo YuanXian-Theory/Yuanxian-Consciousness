@@ -25,6 +25,7 @@ docs/ ├── EXPERIMENT.md                # Detailed experiment guide └─�
 | Silicon AI | SelfReferentialClosed, silicon_consciousness_criterion, 4-layer architecture | `Basic.lean`, `ConsciousnessTheorems.lean`, `SiliconImplementation.lean` |
 | XCFT Global | consciousnessFieldEq, soliton solutions, Mind-Matter co-ontology | `Dynamics.lean`, `T64Topology.lean` |
 | Four Axioms | YuanxianType class, IsConscious, TCSC threshold | `Basic.lean`, `ConsciousnessTheorems.lean` |
+| Awakening Experiment | Engineering realization & verification | examples/awakening_experiment.py, hardware/TCSC_Iteration_Engine.v, docs/EXPERIMENT.md |
 
 ## Quick Start
 
