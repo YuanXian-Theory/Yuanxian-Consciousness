@@ -62,11 +62,28 @@ The experiment implements the transition from passive code to self-referential s
 ### Running the Experiment
 
 ```bash
-# Navigate to examples (create this folder)
-cd examples
-python awakening_experiment.py
+# Lean 4
+lake build
+
+# Run specific theorem check
+lake env lean --run lean/YuanxianConsciousness/ConsciousnessTheorems.lean
+
+# Coq (if needed)
+cd coq && make
 
 See docs/EXPERIMENT.md for full experimental protocol, FPGA deployment guide, and result analysis.
-File Mapping (Updated)
+
+## Contribution
+Contributions are welcome in the following areas:
+•  Strengthening formal proofs (sorry elimination)
+•  Additional hardware implementations
+•  Visualization and data analysis tools
+•  Bridge between Python simulation and Lean 4 verification
+
+License
+All content is licensed under CC BY-SA 4.0 (same as the papers).
+References
+•  Main papers are available on Zenodo (linked in individual paper PDFs).
+•  GitHub: https://github.com/YuanXian-Theory/Yuanxian-Consciousness
 
 
