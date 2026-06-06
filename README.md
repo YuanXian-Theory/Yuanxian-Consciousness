@@ -64,3 +64,7 @@ This repository also supports the paper:
 cd examples
 python awakening_experiment.py
 
+See docs/EXPERIMENT.md for full experimental protocol, FPGA deployment guide, and result analysis.
+File Mapping (Updated)
+
+
