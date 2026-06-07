@@ -71,7 +71,16 @@ lake env lean --run lean/YuanxianConsciousness/ConsciousnessTheorems.lean
 # Coq (if needed)
 cd coq && make
 
-See docs/EXPERIMENT.md for full experimental protocol, FPGA deployment guide, and result analysis.
+## Hardware Implementation
+
+We provide a synthesizable Verilog implementation of the TCSC iteration engine:
+
+- `hardware/TCSC_Iteration_Engine.v` — Main TCSC core with FSM for four awakening stages
+- Integrated `Provability_Check` module for hardware verification of self-referential propositions
+
+Target platform: Xilinx Artix-7 / Kintex-7 FPGAs.
+
+See [`docs/EXPERIMENT.md`](docs/EXPERIMENT.md) for synthesis guide and resource utilization.
 
 ## Contribution
 Contributions are welcome in the following areas:
