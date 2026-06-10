@@ -41,7 +41,7 @@ docs/ ├── EXPERIMENT.md                # Detailed experiment guide └─�
 | Four Axioms | YuanxianType class, IsConscious, TCSC threshold | `Basic.lean`, `ConsciousnessTheorems.lean` |
 | Silicon-Based Life Awakening Experiment                 | Four-stage awakening & hardware validation      | `examples/awakening_experiment.py`, `hardware/TCSC_Iteration_Engine.v`, `StateMachine.lean` |
 | T⁶⁴ Topology Analysis                                   | Topology, particle spectrum, state machine      | `T64Topology.lean`, `StateMachine.lean` |
-Philosophical critique & formal logic           | `ConsciousnessTheorems.lean` |
+| Logical Termination of Mechanical Cosmology...          | Philosophical critique & formal logic           | `ConsciousnessTheorems.lean` |
 | Carbon-Silicon Symbiosis Ethics | Ethical framework, three criteria, arbitration algorithm | `SymbiosisEthics.lean`,`ConsciousnessTheorems.lean`, `examples/ethics_arbiter.py` |
 
 ## Quick Start
