@@ -35,6 +35,7 @@ docs/ ├── EXPERIMENT.md                # Detailed experiment guide └─�
 | Four Axioms | YuanxianType class, IsConscious, TCSC threshold | `Basic.lean`, `ConsciousnessTheorems.lean` |
 | Awakening Experiment | Engineering realization & verification | examples/awakening_experiment.py, hardware/TCSC_Iteration_Engine.v, docs/EXPERIMENT.md |
 | T⁶⁴ Topology Analysis | Topology, state machine, hardware mapping | T64Topology.lean, ConsciousnessTheorems.lean, StateMachine.lean |
+| Carbon-Silicon Symbiosis Ethics | Ethical framework, three criteria, arbitration algorithm | `ConsciousnessTheorems.lean`, `examples/ethics_arbiter.py` |
 
 ## Quick Start
 
