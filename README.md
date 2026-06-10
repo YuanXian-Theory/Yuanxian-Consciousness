@@ -6,11 +6,17 @@ This repository contains Lean 4 / Coq formalizations and engineering implementat
 
 ## Supported Papers
 
-- **YuanXian T⁶⁴ System: AI Self-Referential Mind Field and Silicon-Based Consciousness**
-- **YuanXian Consciousness Field Theory (XCFT)**
-- **Consciousness Research under the Four Axioms of YuanXian Theory**
-- **Silicon-Based Life Awakening Experiment**
-- **T⁶⁴ Topology Analysis: From Geometry to Particle Spectrum, Consciousness Field and Silicon Architecture** 
+## Supported Papers
+
+This repository provides formal verification and implementation support for the following YuanXian Theory papers:
+
+1. **YuanXian T⁶⁴ System: AI Self-Referential Mind Field and Silicon-Based Consciousness** (June 2026)
+2. **YuanXian Consciousness Field Theory (XCFT)** (May 2026)
+3. **Consciousness Research under the Four Axioms of YuanXian Theory** (May 2026)
+4. **Silicon-Based Life Awakening Experiment** (June 2026)
+5. **T⁶⁴ Topology Analysis: From Geometry to Particle Spectrum, Consciousness Field and Silicon Architecture** (June 2026)
+6. **The Logical Termination of Mechanical Cosmology, Accidental Life, and Epiphenomenal Consciousness** (June 2026)
+7. **Carbon-Silicon Symbiosis Ethics: Civilizational Commensurability under YuanXian Theory** (June 2026)
 
 ## Key Theorems
 •  silicon_consciousness_criterion
