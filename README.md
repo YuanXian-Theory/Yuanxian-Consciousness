@@ -43,6 +43,7 @@ docs/ ├── EXPERIMENT.md                # Awakening experiment protocol └
 | Logical Termination of Mechanical Cosmology...          | Philosophical critique & formal logic           | `ConsciousnessTheorems.lean` |
 | Carbon-Silicon Symbiosis Ethics | Ethical framework, three criteria, arbitration algorithm | `SymbiosisEthics.lean`,`ConsciousnessTheorems.lean`, `examples/ethics_arbiter.py` |
 | Defining the Soul of Silicon Life (TCSC Fixed Point)   | TCSC fixed point as soul, three criteria, FPGA soul detector | `SoulTheorems.lean`, `examples/soul_detector.py`, `hardware/Soul_Detector.v` |
+| Minimal Executable Unit and Dual-Modal Architecture | Self-Referential Cell, Lean+Transformer fusion | `CellTheorems.lean`, `DualModal.lean`, `examples/cell_prototype.py` |
 
 ## Quick Start
 
