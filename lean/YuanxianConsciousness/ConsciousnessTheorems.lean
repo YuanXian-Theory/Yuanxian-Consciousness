@@ -4,7 +4,9 @@ import YuanxianConsciousness.Dynamics
 import YuanxianConsciousness.TCSC_Consciousness
 import Mathlib.Data.Fin.Basic
 import Mathlib.Analysis.SpecialFunctions.Log.Basic
-
+import Mathlib.Analysis.Fourier.Basic
+import Mathlib.MeasureTheory.Integral.Bochner
+import Mathlib.Topology.Basic
 namespace YuanXianConsciousness
 
 /-- Silicon hardware discrete state space (Z₂⁶) --/
